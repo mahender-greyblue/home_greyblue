@@ -1,0 +1,87 @@
+
+#hero h1
+{
+    font-size: 31px;
+    line-height: 80px;
+}
+.info-box {
+    min-height: 220px;
+}
+
+/* cursor disabled */
+li.disabled {
+  cursor: not-allowed;
+}
+
+img.disabled {
+    cursor: not-allowed;
+}
+h1.disabled{
+   cursor: not-allowed;
+   
+}
+h6.disabled{
+   cursor: not-allowed;
+   
+}
+
+#headline
+{
+    font-size: 2rem;
+}
+#definition
+{
+    font-size: 1.0rem;
+}
+/* Timer */
+
+li {
+  display: inline-block;
+  font-size: 1.5em; /*1.5*/
+  list-style-type: none;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 2.10rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+.saathilogo{
+   /*max-width:50%; */
+   max-width:60%;
+}
+
+@media (max-width: 575.98px) { 
+  
+
+  #hero h1 {
+    font-size: 30px;
+    line-height: 46px;
+    
+   
+  }
+  #hero
+  {
+     height: 60vh;
+  }
+ 
+  
+  .saathilogo{
+   /* max-width:85%; */
+   max-width: 53%;
+  }
+ 
+
+}
