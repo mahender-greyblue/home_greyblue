@@ -6,18 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Greyblue</title>
-  <link rel="stylesheet" href="assets/css/theme.css">
+  
+  <link href="https://codepen.io/simeydotme/pen/WNawZXp/be618208e9e17abe52c0fc63379e5f88.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <link rel="stylesheet" href="assets/css/mystyle.css">
+   
+</style>  
+
+</head> 
 
 <body>
   
-  <header id="header" class="d-flex align-items-center">
+  <header id="header" class="d-flex align-items-center ">
 
     <div class="container d-flex align-items-center justify-content-between">
 
-    <div class="col-lg-4 col-md-8 col-6 d-flex align-items-left justify-content-left">
+    <div class="col-lg-4 col-md-8 col-6 d-flex align-items-center justify-content-center">
 
             <img src="assets/img/logo.png"  style="height: 45px" class="img-fluid" alt="">
 
@@ -30,19 +36,22 @@
 
         <ul>
 
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto active" href="#hero">Team</a></li>
-          <li><a class="nav-link scrollto active" href="#hero">About Us</a></li>
-          <li><a class="nav-link scrollto active" href="#hero">Impact</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a>  </li>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <!-- <li><a class="nav-link scrollto active" href="#hero">Team</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">About Us</a></li> -->
+          <li><a class="nav-link scrollto " href="#hero">Impact</a></li>
+          <li><a class="nav-link scrollto " href="#contact">Contact</a>  </li>
           <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"></li>
           <li><i class="fa fa-bars"></i></li>
           </a>    
 
         
-        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
+        
+        
       </ul>
-      </nav><!-- .navbar -->
+      </nav>
+      
+      <!-- .navbar -->
 
 
 
@@ -51,56 +60,41 @@
   </header>
   
   <!-- End Header -->
-
-  <div class="cover-container w-100 ht-100p ht-100v pd-30 d-flex justify-content-center align-items-stretch align-items-sm-center">
+  <!-- hero section start  -->
+  <div class="cover-container w-100 ht-100p ht-100v pd-30 d-flex justify-content-center align-items-stretch align-items-sm-center" >
     <div class="row pos-sm-relative">
       <div class="col-12 col-md-4 d-flex justify-content-center align-items-center pd-sm-0">
         <!-- <video width="75%" autoplay> -->
         <div class="tx-center">
 
           <h2 style="color: white;">The Saathi Ecosystem </h2>
-          <h3 style="color: white;">Transforming Lives </h3>
+          <h3 style="color: white;">"Transforming Lives"</h3>
 
-          <video loop="true" autoplay="autoplay" muted>
+          <video loop="true" autoplay="autoplay" muted >
             <source src="assets/vid/mobile-video2.mp4" type="video/mp4">
           </video>
-
         </div>
       </div>
-      <div class="col-12 col-md-4 d-flex justify-content-center justify-content-sm-end align-items-center pr-sm-0">
-        <div class="left-content tx-center tx-sm-normal">
+      <div class="col-12 col-md-4 d-flex justify-content-center align-items-center pd-sm-0">
+        <div class=" tx-center tx-sm-normal">
 
           <!-- h1 -->
 
-          <h1 id="hero-img1" ><img src="assets/img/Saathilogo.svg" width="300px"></h1>
+          <!-- <h1 id="hero-img1" ><img src="assets/img/Saathilogo.svg" width="300px"></h1> -->
+          <h1 class="hero-img1" ><img src="assets/img/saathi_logo.png" width="500px"></h1>
+          <img  src="./assets/img/coming-soon.gif" alt="Coming Soon" width="80%" >
 
-          <!-- h2 -->
-
-          <p style="color: white;">Transforming The <span>Blue-Collar </span>Universe</p>
-
-          <!-- p -->
-
-          <p><img src="assets/img/learnyellow.svg" width="300px" >
-
-          </p> 
-          
-          <img  src="./assets/img/coming-soon.png" alt="Coming Soon" class="img-fluid" width="50%" >
-
-          
 
         </div>
-        <!-- <div class="left-content tx-center tx-sm-normal">
-          The <strong class="tx-uppercase">world</strong> in your <strong class="tx-uppercase">window</strong>
-          <br>The <strong class="tx-uppercase">window</strong> to your <strong class="tx-uppercase">world</strong>
-        </div> -->
+       
       </div>
       
-      <div class="col-12 col-md-4 tx-center tx-sm-normal d-flex justify-content-center justify-content-sm-start align-items-center pl-sm-0">
+      <div class="col-12 col-md-4 d-flex justify-content-center align-items-center pd-sm-0">
 
         <div class="tx-center">
 
           <h2 style="color: white;">The Saathi Channel </h2>
-          <h3 style="color: white;">Inspiring Lives </h3>
+          <h3 style="color: white;">"Inspiring Lives"</h3>
 
 
           <video loop="true" autoplay="autoplay" muted>
@@ -116,19 +110,239 @@
       </div>
     </div>
   </div>
+  <!-- hero section end  -->
 
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("mynavbar");
-      if (x.className === "navbar") {
-        x.className += " responsive";
-      } else {
-        x.className = "navbar";
-      }
-    }
-    </script>
+  <!-- Impact section start -->
+  
+  
+<main id="app">
+  <h1 align="center">A Better Life for  a Billion People</h1>
+  <section class="carousel">
+    <ul class="carousel__list">
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/1.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Anthony Lee</h2> -->
+            <h3 class="user__title">Providing Identity
+              & Dignity</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/2.png"  height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Alicia Chevalier</h2> -->
+            <h3 class="user__title">Reducing Inequality
+              by Income
+              Augmentation</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/3.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Nate Boucher</h2> -->
+            <h3 class="user__title">Driving Women
+              Empowerment &
+              increased Workforce
+              Inclusion</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/5.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Leah Harris</h2> -->
+            <h3 class="user__title">Promoting Financial
+              Inclusion, Security &
+              Freedom</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0" data-active="data-active">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/4.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Angelina Laurent</h2> -->
+            <h3 class="user__title">Preserving the Social Fabric
+              of Families with Reduced
+              Labour Migration</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/5.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Gal Gadot</h2> -->
+            <h3 class="user__title">Teaching Life Skills
+              & Well being</h3>
+          </div>
+        </div>
+      </li>
+      
+     
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/1.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Anthony Lee</h2> -->
+            <h3 class="user__title">Providing Identity
+              & Dignity</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/2.png"  height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Alicia Chevalier</h2> -->
+            <h3 class="user__title">Reducing Inequality
+              by Income
+              Augmentation</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/3.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Nate Boucher</h2> -->
+            <h3 class="user__title">Driving Women
+              Empowerment &
+              increased Workforce
+              Inclusion</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/5.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Leah Harris</h2> -->
+            <h3 class="user__title">Promoting Financial
+              Inclusion, Security &
+              Freedom</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0" data-active="data-active">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/4.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Angelina Laurent</h2> -->
+            <h3 class="user__title">Preserving the Social Fabric
+              of Families with Reduced
+              Labour Migration</h3>
+          </div>
+        </div>
+      </li>
+      <li class="carousel__item" tabindex="0">
+        <div class="carousel__box">
+          <div class="carousel__image"><img src="assets/img/5.png" width="480" height="720"/></div>
+          <div class="carousel__contents">
+            <!-- <h2 class="user__name">Gal Gadot</h2> -->
+            <h3 class="user__title">Teaching Life Skills
+              & Well being</h3>
+          </div>
+        </div>
+      </li>
+      
+      
+    </ul>
+    <!-- <div class="carousel__nav">
+      <button class="prev">
+        <svg width="24" height="24" viewBox="0 0 24 24">
+          <path d="M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h7a2 2 0 0 0 2 -2v-4l-.005 -.15a2 2 0 0 0 -1.995 -1.85l-7 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z"></path>
+        </svg><span>prev</span>
+      </button>
+      <button class="next"><span>next</span>
+        <svg width="24" height="24" viewBox="0 0 24 24">
+          <path d="M12.089 3.634a2 2 0 0 0 -1.089 1.78l-.001 2.586h-6.999a2 2 0 0 0 -2 2v4l.005 .15a2 2 0 0 0 1.995 1.85l6.999 -.001l.001 2.587a2 2 0 0 0 3.414 1.414l6.586 -6.586a2 2 0 0 0 0 -2.828l-6.586 -6.586a2 2 0 0 0 -2.18 -.434l-.145 .068z"></path>
+        </svg>
+      </button>
+    </div> -->
+  </section>
 
+  <!-- Impact section end -->
+
+  <!-- contact us section start  -->
+
+
+  <section class="contact-sec sec-pad">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contact-detail">
+            <h1 class="section-title" style="text-decoration: underline;">Contact us</h1>
+  
+            <ul  >
+
+              <li></i> Head Office <br> 503 Tower A , 5th Floor, Millennium Plaza, Sector-27, Gurugram,
+                Haryana 122009 India.</li>
+              <li></i>Branch Office<br>
+                2nd Floor, 51/8/4 Inderbaba Marg Lane No. 2 Rajpur Road, Dehradun,
+                Uttarakhand 248001 India.</li>
+  
+  
+              <li>
+         
+                <a href="mailto:connect@greyblue.in" style="text-decoration: underline;"><b> connect@greyblue.in</b></a>
+                          </li>
+            </ul>
+  
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <form action="#" class="contFrm" method="POST">
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="text" name="name" placeholder="Your Name" class="inptFld" required />
+              </div>
+  
+              <div class="col-sm-6">
+                <input type="email" name="email" placeholder="Email Address" class="inptFld" required />
+              </div>
+  
+              <div class="col-sm-6">
+                <input type="tel" name="phone" placeholder="Phone Number" class="inptFld" required />
+              </div>
+  
+              <div class="col-sm-6">
+                <input type="text" name="sub" placeholder="Subject" class="inptFld" required />
+              </div>
+  
+              <div class="col-12">
+                <textarea class="inptFld" rows="" cols="" placeholder="Your Message..." required></textarea>
+              </div>
+  
+              <div class="col-12">
+                <input type="submit" name="submit" value="SUBMIT" class="inptBtn" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- contact us section end  -->
+  <!-- Footer start -->
+  <Footer>
+    <Div>
+      <P align="center">©Copyright GreyBlue Ventures Private Limited All Rights Reserved.
+      </P>
+    </Div>
+  </Footer>
+  <!-- Footer start -->
 </body>
+<script src="assets/js/main.js"></script>
 
 </html>
